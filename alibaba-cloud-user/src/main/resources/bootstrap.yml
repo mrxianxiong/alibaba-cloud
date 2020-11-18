@@ -1,17 +1,11 @@
-server:
-  port: 8081
-
 spring:
   application:
     name: alibaba-cloud-user
+  profiles:
+    active: test
   cloud:
     nacos:
-      discovery:
+      config:
         server-addr: 49.232.139.106:8848
+        file-extension: yaml
         group: alibaba-cloud
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: '*'
