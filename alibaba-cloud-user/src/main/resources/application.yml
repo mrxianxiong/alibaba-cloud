@@ -1,0 +1,17 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: alibaba-cloud-user
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 49.232.139.106:8848
+        group: alibaba-cloud
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
