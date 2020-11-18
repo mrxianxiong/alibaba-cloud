@@ -16,7 +16,7 @@ import java.util.concurrent.TimeUnit;
 @EnableDiscoveryClient
 public class Application {
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
 }

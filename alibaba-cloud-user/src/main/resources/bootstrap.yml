@@ -2,10 +2,9 @@ spring:
   application:
     name: alibaba-cloud-user
   profiles:
-    active: test
+    active: dev
   cloud:
     nacos:
       config:
         server-addr: 49.232.139.106:8848
         file-extension: yaml
-        group: alibaba-cloud
