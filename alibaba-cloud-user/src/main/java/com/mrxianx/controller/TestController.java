@@ -36,7 +36,7 @@ public class TestController {
     @GetMapping(value = "/hello")
     @SentinelResource("hello")
     public String hello() {
-        return "Hello Sentinel";
+        return "Hello";
     }
 
 
